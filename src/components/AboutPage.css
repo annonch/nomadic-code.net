@@ -1,0 +1,86 @@
+/* AboutPage.css */
+
+.about-page {
+    max-width: 1200px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F0FFF0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.desc-intro {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #225522;
+}
+
+.desc-sum {
+    color: #2188FF; /* Blue link color */
+    text-decoration: none;
+    text-align: center;
+}
+
+.desc-link {
+    color: #2188FF; /* Blue link color */
+    text-decoration: none;
+    text-align: center;
+}
+
+.desc-link:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    text-align: center;
+}
+.personal {
+    text-align: left;
+    font-size: 22px;
+    color: #CE5C00;		
+}
+.personal2 {
+    text-align: center;
+    font-size: 32px;
+    color: #CE5C00;
+		
+}
+
+
+.desc-desc {
+    font-size: 18px;
+    line-height: 1;
+    color: #444D56; /* Dark gray text color */
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .about-page {
+	padding: 15px;
+    }
+
+    h2 {
+	font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+
+    p {
+	font-size: 14px; /* Adjust paragraph font size for smaller screens */
+    }
+
+    .desc-link {
+	font-size: 14px; /* Adjust link font size for smaller screens */
+    }
+
+    .desc-desc {
+	font-size: 12px; /* Adjust description font size for smaller screens */
+    }
+}
+
+.desc-faction {
+    color: #444D56;
+    text-align: left;
+    font-size: 16px;
+}
+
+.dragon-img {
+  width: 300px; /* Adjust the width of the dragon image */
+  margin-bottom: 0px;
+}

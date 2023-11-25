@@ -1,0 +1,29 @@
+/* HeaderBar.css */
+
+.header-bar {
+  background-color: #326B6B; /* #326B6B Darker green background color */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px; /* Adjust the height of the logo as needed */
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  color: #fff; /* White text color for contrast */
+}
+
+.nav-link {
+  color: #fff; /* White text color for contrast */
+  text-decoration: none; /* Remove default link underline */
+  margin-left: 20px; /* Add space to the left of the link */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
