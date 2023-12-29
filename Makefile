@@ -6,6 +6,8 @@ build: check-env
 	@echo ""
 	@gcloud config set project nomadic-code
 	@podman build . --platform linux/amd64 -t us-central1-docker.pkg.dev/nomadic-code/personal/site:${TAG}
+
+publish: build
 	@podman push us-central1-docker.pkg.dev/nomadic-code/personal/site:${TAG}
 
 setup:

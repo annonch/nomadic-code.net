@@ -4,12 +4,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import './index.css';
+
 import App from './App';
 import NotFoundPage from './components/NotFoundPage.js'
 import AboutPage from './components/AboutPage.js'; // Create and import AboutPage component
-//import reportWebVitals from './reportWebVitals';
-
+import DragonKingdom from './components/DragonKingdom.js'; // Create and import Dragon Kingdom component
+import CellularAutomata from './components/CellularAutomata.js';  //ca junk
 
 const router = createBrowserRouter([
     {
@@ -20,6 +22,18 @@ const router = createBrowserRouter([
     {
 	path: "about",
 	element: <div> <AboutPage /> </div>,
+    },
+    {
+	path: "blog",
+	element: <div> <NotFoundPage /> </div>,
+    },
+    {
+	path: "dragon-kingdom",
+	element: <div> <DragonKingdom /> </div>,
+    },
+    {
+	path: "cellular-automata",
+	element: <div> <CellularAutomata /> </div>,
     }
 ]);
 
@@ -30,7 +44,3 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-//reportWebVitals();

@@ -1,0 +1,82 @@
+/* DragonComponent.css */
+
+.dragon-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+.sidebar {
+  background-color: #2E3436;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #EF2929;
+  transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: #555;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .dragon-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.faction-list {
+    color: #EF2929;
+}
+
+.desc-faction {
+    color: #444D56;
+    text-align: left;
+    font-size: 16px;
+}
+
+.dragon-img {
+  width: 300px; /* Adjust the width of the dragon image */
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.desc-title {
+    text-align: left;
+    font-size: 22px;
+    color: #CE5C00;		
+}
+
+.ddragon {
+    text-align: center;
+}

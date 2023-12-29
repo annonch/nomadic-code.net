@@ -1,7 +1,7 @@
 // AboutPage.js
 import React from 'react';
 
-import './AboutPage.css'; // Import the CSS file
+import './CellularAutomata.css'; // Import the CSS file
 import HeaderBar from './HeaderBar.js'; // Import the new HeaderBar component
 
 const AboutPage = () => {

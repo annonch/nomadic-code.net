@@ -13,11 +13,16 @@ const AboutPage = () => {
 	    <div className="about-page">
 		<h2 className="personal">Hic Sunt Dracones</h2>
 		<p className="desc-intro">
+		    In the Dwarven Mines:
+
+
 		    Welcome to Dragon Kingdom, a magical land filled with majestic dragons and
 		    mythical creatures. Explore the wonders of our kingdom and learn about the
 		    fascinating world of dragons. 
 		    Dragon Kingdom is dedicated to fostering a deep appreciation for these legendary
 		    beings and promoting harmony between dragons, humans, and AI.
+
+
 		</p>
 		<p className="desc-intro">
 		    Dragon Kingdom is an Art Project & Personal Website. Any views

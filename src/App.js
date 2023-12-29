@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dragon from './components/Dragon.js';
+import Zia from './components/Zia.js';
 import HeaderBar from './components/HeaderBar.js'; // Import the new HeaderBar component
 import AboutPage from './components/AboutPage.js'; // Create and import AboutPage component
 
@@ -14,7 +14,7 @@ function App() {
       <div className="App">
           <HeaderBar />
 	  <div>
-	      <Dragon/>
+	      <Zia/>
 	  </div>
       </div>
 

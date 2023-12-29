@@ -3,9 +3,10 @@
 .not-found-page {
   text-align: center;
   padding: 20px;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  background-color: #E3F2E1
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #F0FFF0;
 }
 
 .dragon-404 {
